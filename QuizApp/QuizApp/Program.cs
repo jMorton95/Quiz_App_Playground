@@ -1,9 +1,22 @@
-﻿namespace QuizApp
+﻿
+namespace QuizApp
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            //Destructure this into my Class
+            string[] questionOneProperties = { "Q1", "A", "B", "C" }; 
+
+            Questions questionOne = new Questions("Question 1", "Answer 1");
+
+            for (int x = 0; x < questionOneProperties.Length; x++)
+            {
+                Console.WriteLine(questionOneProperties[x]);
+
+            }
+            //Console.WriteLine(questionOne.Question + " " + questionOne.Answer);
+
             /*
             bool willPlay = false;
             string promptText = "Do you want to play a quiz? (Y/N)";
@@ -70,21 +83,7 @@
             Console.WriteLine("Complete! Your Total score was: " + winCount);
             */
 
-            Quiz newQuiz = new(setQuestion: "Q1", setAnswer: "A");
         }
-
-    class Quiz
-        {
-            public string? AskQuestion;
-            public string? CorrectAnswer;
-
-            public void Question(string setQuestion, string setAnswer)
-            {
-                AskQuestion = setQuestion;
-                CorrectAnswer = setAnswer;
-
-            }
-        }
-      
     }
+
 }
