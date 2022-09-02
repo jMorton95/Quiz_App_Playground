@@ -13,7 +13,7 @@ namespace QuizApp
             Question = qInput;
             AnswerOne = aOneInput;
             AnswerTwo = aTwoInput;
-            AnswerThree = aThreeInput;  
+            AnswerThree = aThreeInput;
             CorrectAnswer = answer;
         }
 
@@ -26,4 +26,6 @@ namespace QuizApp
 
 
     }
+
+    
 }

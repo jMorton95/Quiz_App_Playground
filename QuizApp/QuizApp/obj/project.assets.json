@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JoshMorton\\source\\repos\\Quiz_App_Playground\\QuizApp\\QuizApp\\QuizApp.csproj",
+      "projectUniqueName": "D:\\Quiz_App_Playground\\QuizApp\\QuizApp\\QuizApp.csproj",
       "projectName": "QuizApp",
-      "projectPath": "C:\\Users\\JoshMorton\\source\\repos\\Quiz_App_Playground\\QuizApp\\QuizApp\\QuizApp.csproj",
+      "projectPath": "D:\\Quiz_App_Playground\\QuizApp\\QuizApp\\QuizApp.csproj",
       "packagesPath": "C:\\Users\\JoshMorton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JoshMorton\\source\\repos\\Quiz_App_Playground\\QuizApp\\QuizApp\\obj\\",
+      "outputPath": "D:\\Quiz_App_Playground\\QuizApp\\QuizApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

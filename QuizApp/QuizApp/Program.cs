@@ -8,11 +8,14 @@ namespace QuizApp
             //Destructure this into my Class
             string[] questionOneProperties = { "Q1", "A", "B", "C" }; 
 
-            Questions questionOne = new Questions("Question 1", "Answer 1");
+            Questions questionOne = new Questions("Q 1", "A1", "A2", "A3", 1);
+
+
+
 
             for (int x = 0; x < questionOneProperties.Length; x++)
             {
-                Console.WriteLine(questionOneProperties[x]);
+                Console.WriteLine(questionOne.CorrectAnswer);
 
             }
             //Console.WriteLine(questionOne.Question + " " + questionOne.Answer);
