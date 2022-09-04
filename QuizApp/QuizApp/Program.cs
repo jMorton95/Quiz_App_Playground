@@ -5,86 +5,32 @@ namespace QuizApp
     {
         static void Main(string[] args)
         {
-            //Destructure this into my Class
-            string[] questionOneProperties = { "Q1", "A", "B", "C" }; 
 
-            Questions questionOne = new Questions("Q 1", "A1", "A2", "A3", 1);
+            string[] questionOneProps = { "What colour are cabbies in London?", "A: Black", "B: Blue", "C: Beige", "A" };
+            string[] questionTwoProps = { "Which equation is the greatest?", "A: 50 + 50", "B: 1000 + -1000", "C: 50 / 0.1", "C" };
+            string[] questionThreeProps = { "Which planet is the smallest?", "A: Pluto", "B: Mercury", "C: Venus", "B" };
 
+            Question questionOne = new(questionOneProps);
+            Question questionTwo = new(questionTwoProps);
+            Question questionThree = new(questionThreeProps);
 
+            Game Quiz = new();
 
+            Quiz.gamePrompt();
 
-            for (int x = 0; x < questionOneProperties.Length; x++)
-            {
-                Console.WriteLine(questionOne.CorrectAnswer);
+            Quiz.askQuestion(questionOne.questionPrompt, questionOne.answerOne, questionOne.answerTwo, questionOne.answerThree);
+            Quiz.playRound(questionOne.correctAnswer);
 
-            }
-            //Console.WriteLine(questionOne.Question + " " + questionOne.Answer);
+            Quiz.askQuestion(questionTwo.questionPrompt, questionTwo.answerOne, questionTwo.answerTwo, questionTwo.answerThree);
+            Quiz.playRound(questionOne.correctAnswer);
 
-            /*
-            bool willPlay = false;
-            string promptText = "Do you want to play a quiz? (Y/N)";
-            
-            Console.WriteLine(promptText);
-            
-            while (willPlay == false)
-            {
-                
-                string userAnswer = Console.ReadLine().ToLower();
+            Quiz.askQuestion(questionThree.questionPrompt, questionThree.answerOne, questionThree.answerTwo, questionThree.answerThree);
+            Quiz.playRound(questionThree.correctAnswer);
 
-                if (userAnswer == "y")
-                {
-                    willPlay = true;
-                }
-                else if (userAnswer == "n")
-                {
-                    Console.WriteLine(promptText);
-                }
-                else
-                {
-                    Console.WriteLine("Incorrect Input");
-                    Console.WriteLine(promptText);
-                }
-            }
-
-            int winCount = 0;
-            string[] answer = {"a", "b", "c" };
-
-            Console.WriteLine("Question 1: A/B/C - (Hint: A)");
-            string answerOne = Console.ReadLine().ToLower();
-            if (answer[0] == answerOne) {
-                winCount++;
-                Console.WriteLine("Correct! Your Score is: " + winCount);
-            } else {
-                Console.WriteLine("False! Your Score is: " + winCount);
-            }
-
-            Console.WriteLine("Question 2: A/B/C - (Hint: B)");
-            string answerTwo = Console.ReadLine().ToLower();
-            if (answer[1] == answerTwo)
-            {
-                winCount++;
-                Console.WriteLine("Correct! Your Score is: " + winCount);
-            }
-            else
-            {
-                Console.WriteLine("False! Your Score is: " + winCount);
-            }
-
-            Console.WriteLine("Question 1: A/B/C - (Hint: C)");
-            string answerThree = Console.ReadLine().ToLower();
-            if (answer[2] == answerThree)
-            {
-                winCount++;
-                Console.WriteLine("Correct! Your Score is: " + winCount);
-            }
-            else
-            {
-                Console.WriteLine("False! Your Score is: " + winCount);
-            }
+            Quiz.gameEnd();
 
 
-            Console.WriteLine("Complete! Your Total score was: " + winCount);
-            */
+
 
         }
     }

@@ -43,3 +43,18 @@ D:\Quiz_App_Playground\QuizApp\QuizApp\obj\Debug\net6.0\refint\QuizApp.dll
 D:\Quiz_App_Playground\QuizApp\QuizApp\obj\Debug\net6.0\QuizApp.pdb
 D:\Quiz_App_Playground\QuizApp\QuizApp\obj\Debug\net6.0\QuizApp.genruntimeconfig.cache
 D:\Quiz_App_Playground\QuizApp\QuizApp\obj\Debug\net6.0\ref\QuizApp.dll
+D:\1Programming\C# DotNet\Propel Training\Quiz_App_Playground\QuizApp\QuizApp\obj\Debug\net6.0\QuizApp.csproj.AssemblyReference.cache
+D:\1Programming\C# DotNet\Propel Training\Quiz_App_Playground\QuizApp\QuizApp\obj\Debug\net6.0\QuizApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\1Programming\C# DotNet\Propel Training\Quiz_App_Playground\QuizApp\QuizApp\obj\Debug\net6.0\QuizApp.AssemblyInfoInputs.cache
+D:\1Programming\C# DotNet\Propel Training\Quiz_App_Playground\QuizApp\QuizApp\obj\Debug\net6.0\QuizApp.AssemblyInfo.cs
+D:\1Programming\C# DotNet\Propel Training\Quiz_App_Playground\QuizApp\QuizApp\obj\Debug\net6.0\QuizApp.csproj.CoreCompileInputs.cache
+D:\1Programming\C# DotNet\Propel Training\Quiz_App_Playground\QuizApp\QuizApp\obj\Debug\net6.0\QuizApp.dll
+D:\1Programming\C# DotNet\Propel Training\Quiz_App_Playground\QuizApp\QuizApp\obj\Debug\net6.0\refint\QuizApp.dll
+D:\1Programming\C# DotNet\Propel Training\Quiz_App_Playground\QuizApp\QuizApp\obj\Debug\net6.0\QuizApp.pdb
+D:\1Programming\C# DotNet\Propel Training\Quiz_App_Playground\QuizApp\QuizApp\bin\Debug\net6.0\QuizApp.exe
+D:\1Programming\C# DotNet\Propel Training\Quiz_App_Playground\QuizApp\QuizApp\bin\Debug\net6.0\QuizApp.deps.json
+D:\1Programming\C# DotNet\Propel Training\Quiz_App_Playground\QuizApp\QuizApp\bin\Debug\net6.0\QuizApp.runtimeconfig.json
+D:\1Programming\C# DotNet\Propel Training\Quiz_App_Playground\QuizApp\QuizApp\bin\Debug\net6.0\QuizApp.dll
+D:\1Programming\C# DotNet\Propel Training\Quiz_App_Playground\QuizApp\QuizApp\bin\Debug\net6.0\QuizApp.pdb
+D:\1Programming\C# DotNet\Propel Training\Quiz_App_Playground\QuizApp\QuizApp\obj\Debug\net6.0\QuizApp.genruntimeconfig.cache
+D:\1Programming\C# DotNet\Propel Training\Quiz_App_Playground\QuizApp\QuizApp\obj\Debug\net6.0\ref\QuizApp.dll

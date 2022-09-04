@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Quiz_App_Playground\\QuizApp\\QuizApp\\QuizApp.csproj": {}
+    "D:\\1Programming\\C# DotNet\\Propel Training\\Quiz_App_Playground\\QuizApp\\QuizApp\\QuizApp.csproj": {}
   },
   "projects": {
-    "D:\\Quiz_App_Playground\\QuizApp\\QuizApp\\QuizApp.csproj": {
+    "D:\\1Programming\\C# DotNet\\Propel Training\\Quiz_App_Playground\\QuizApp\\QuizApp\\QuizApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Quiz_App_Playground\\QuizApp\\QuizApp\\QuizApp.csproj",
+        "projectUniqueName": "D:\\1Programming\\C# DotNet\\Propel Training\\Quiz_App_Playground\\QuizApp\\QuizApp\\QuizApp.csproj",
         "projectName": "QuizApp",
-        "projectPath": "D:\\Quiz_App_Playground\\QuizApp\\QuizApp\\QuizApp.csproj",
-        "packagesPath": "C:\\Users\\JoshMorton\\.nuget\\packages\\",
-        "outputPath": "D:\\Quiz_App_Playground\\QuizApp\\QuizApp\\obj\\",
+        "projectPath": "D:\\1Programming\\C# DotNet\\Propel Training\\Quiz_App_Playground\\QuizApp\\QuizApp\\QuizApp.csproj",
+        "packagesPath": "C:\\Users\\44795\\.nuget\\packages\\",
+        "outputPath": "D:\\1Programming\\C# DotNet\\Propel Training\\Quiz_App_Playground\\QuizApp\\QuizApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JoshMorton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\44795\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
